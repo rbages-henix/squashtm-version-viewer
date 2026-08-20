@@ -23,9 +23,9 @@ Un script pour **Tampermonkey** spécialement conçu pour les équipes QA. Il aj
 > ⚠️ **IMPORTANT POUR CHROME & EDGE** : En raison des règles de sécurité récentes (Manifest V3), **l'extension doit être explicitement autorisée** dans votre navigateur, sinon les scripts ne se lanceront pas.
 
 1. **Installez l'extension Tampermonkey** :
-   * [Google Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-   * [Mozilla Firefox](https://addons.mozilla.org/fr/firefox/addon/tampermonkey/)
-   * [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
+   * 🟠 [Google Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+   * 🦊 [Mozilla Firefox](https://addons.mozilla.org/fr/firefox/addon/tampermonkey/)
+   * 🔵 [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
 
 2. **Activez les autorisations nécessaires (Chrome & Edge uniquement)** :
    1. Ouvrez la page des extensions de votre navigateur (`chrome://extensions/` ou `edge://extensions/`).
@@ -36,14 +36,15 @@ Un script pour **Tampermonkey** spécialement conçu pour les équipes QA. Il aj
 
 ---
 
-## 🚀 Étape 2 : Installer le script Squash TM
+## 🚀 Étape 2 : Installer le script (Installation en 1 clic)
 
-1. Cliquez sur l'icône de l'extension **Tampermonkey** en haut à droite de votre navigateur (pensez à l'épingler pour la garder visible).
-2. Cliquez sur **Ajouter un nouveau script** (ou *Create a new script*).
-3. Supprimez tout le contenu pré-rempli dans l'éditeur.
-4. Collez l'intégralité du code du script (version 9.0).
-5. Enregistrez avec `Ctrl + S` (ou menu *Fichier > Enregistrer*).
-6. Fermez l'onglet de l'éditeur : le script est actif !
+Une fois Tampermonkey installé et configuré :
+
+1. Cliquez sur le lien d'installation directe ci-dessous :  
+   👉 **[Installer / Mettre à jour le script Squash TM](https://github.com/rbages-henix/squashtm-version-viewer/raw/refs/heads/main/version_viewer.user.js)**
+2. Un onglet Tampermonkey va s'ouvrir automatiquement.
+3. Cliquez sur le bouton **"Installer"** (ou *"Mettre à jour"* si vous aviez déjà une ancienne version).
+4. C'est terminé ! Le script est prêt et actif.
 
 ---
 
@@ -52,7 +53,7 @@ Un script pour **Tampermonkey** spécialement conçu pour les équipes QA. Il aj
 Cette étape est nécessaire si vous travaillez sur des versions **SNAPSHOT** ou **NIGHTLY** et souhaitez afficher les dates de build et de déploiement Docker.
 
 1. Rendez-vous sur n'importe quelle instance Squash TM.
-2. Cliquez sur l'icône **Tampermonkey** dans votre barre d'outils.
+2. Cliquez sur l'icône **Tampermonkey** dans votre barre d'outils (pensez à l'épingler pour la garder visible).
 3. Dans la liste des actions du script, cliquez sur : **⚙️ Configurer identifiants Nexus**.
 4. *(Lors de la première utilisation, si Tampermonkey vous demande l'autorisation d'accéder à `nexus.squashtest.org`, cliquez sur **Toujours autoriser**).*
 5. Une fenêtre modale s'ouvre : renseignez votre identifiant (ex: `rbages`) et votre mot de passe Nexus, puis cliquez sur **Enregistrer**.
@@ -70,6 +71,14 @@ Cette étape est nécessaire si vous travaillez sur des versions **SNAPSHOT** ou
 | **Réinitialiser la position** | Cliquez sur l'icône Tampermonkey > **🔄 Réinitialiser la position de l'étiquette** (elle revient instantanément en bas à droite en mode déplié, sans recharger la page). |
 | **Mettre à jour les accès Nexus** | Cliquez sur l'icône Tampermonkey > **⚙️ Configurer identifiants Nexus**. |
 | **Effacer les accès Nexus** | Cliquez sur l'icône Tampermonkey > **🗑️ Effacer identifiants Nexus**. |
+
+---
+
+## 🔄 Mises à jour du script
+
+Quand une nouvelle version du script sera publiée sur GitHub :
+* Tampermonkey vérifiera automatiquement les mises à jour en arrière-plan.
+* Vous pouvez également forcer la mise à jour à tout moment en re-cliquant sur le lien d'installation de l'**Étape 2**.
 
 ---
 

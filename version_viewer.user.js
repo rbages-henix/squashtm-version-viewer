@@ -13,6 +13,8 @@
 // @grant        GM_getValue
 // @grant        GM_registerMenuCommand
 // @connect      nexus.squashtest.org
+// @downloadURL  https://github.com/rbages-henix/squashtm-version-viewer/raw/refs/heads/main/version_viewer.user.js
+// @updateURL    https://github.com/rbages-henix/squashtm-version-viewer/raw/refs/heads/main/version_viewer.user.js
 // ==/UserScript==
 
 (async function() {
